@@ -1,5 +1,5 @@
-package transporte;
-import paquete.*;
+package ar.com.unlam.pb2.transporte;
+import ar.com.unlam.pb2.paquete.*;
 
 public class Camion extends Transporte {
     public Camion() {
@@ -8,7 +8,9 @@ public class Camion extends Transporte {
 
     @Override
     public boolean puedeLlevarPaquete(Paquete paquete) {
-        if (!puedeAgregarPaquete(paquete)) return false;
+        if (!puedeAgregarPaquete(paquete)) {
+        	return false;
+        }
         sumarPesoYVolumen(paquete);
         return true;
     }

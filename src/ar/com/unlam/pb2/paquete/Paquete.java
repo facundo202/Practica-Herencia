@@ -1,4 +1,4 @@
-package paquete;
+package ar.com.unlam.pb2.paquete;
 
 public class Paquete {
 

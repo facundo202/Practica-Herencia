@@ -1,6 +1,6 @@
-package transporte;
+package ar.com.unlam.pb2.transporte;
 
-import paquete.*;
+import ar.com.unlam.pb2.paquete.*;
 
 public abstract class Transporte {
     protected final double MAX_PESO;
